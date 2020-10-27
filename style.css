@@ -1,0 +1,136 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2em;
+
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    /* align-items: stretch; */
+}
+
+li {
+    padding: 0 1.5em;
+    list-style-type: none;
+    font-size: 16px;
+    /* font-weight: 500; */
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.illustrations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-ill {
+    width: 200px;
+    height: 200px;
+    background: url("./assets/About1_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+.about-ill:hover {
+    background: url("./assets/About2_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.books-ill {
+    width: 200px;
+    height: 200px;
+    background: url("./assets/Books1_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+.books-ill:hover {
+    background: url("./assets/Books2_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.other-ill {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background: url("./assets/Misc1_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+.other-ill:hover {
+    background: url("./assets/Misc2_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.press-ill {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background: url("./assets/Press1_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+.press-ill:hover {
+    background: url("./assets/Press2_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.events-ill {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background: url("./assets/Events1_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+.events-ill:hover {
+    background: url("./assets/Events2_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.contact-ill {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background: url("./assets/Contact1_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+.contact-ill:hover {
+    background: url("./assets/Contact2_Draft.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
